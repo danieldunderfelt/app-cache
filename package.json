@@ -1,7 +1,7 @@
 {
-  "name": "pathricia",
-  "version": "1.0.1",
-  "description": "A very simple router that uses either location.hash or history.",
+  "name": "mobx-app-cache",
+  "version": "1.0.0",
+  "description": "LocalStorage caching made easy.",
   "main": "lib/index.js",
   "scripts": {
     "test": "jest",
@@ -10,28 +10,30 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/danieldunderfelt/pathricia.git"
+    "url": "git+ssh://git@github.com/danieldunderfelt/mobx-app-cache.git"
   },
   "keywords": [
     "simple",
-    "router",
-    "hash",
-    "change",
-    "history"
+    "cache",
+    "storage",
+    "state",
+    "hydrate"
   ],
   "author": "Daniel Dunderfelt <daniel@developsuperpowers.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/danieldunderfelt/pathricia/issues"
+    "url": "https://github.com/danieldunderfelt/mobx-app-cache/issues"
   },
-  "homepage": "https://github.com/danieldunderfelt/pathricia#readme",
-  "optionalDependencies": {
-    "history": "^4.7.2"
-  },
+  "homepage": "https://github.com/danieldunderfelt/mobx-app-cache#readme",
   "devDependencies": {
+    "add": "^2.0.6",
     "babel-cli": "^6.16.0",
     "babel-core": "^6.17.0",
     "babel-preset-env": "^1.6.1",
-    "jest-cli": "^22.4.2"
+    "jest-cli": "^22.4.2",
+    "jest-localstorage-mock": "^2.2.0",
+    "localforage": "^1.6.0",
+    "mobx": "^4.1.0",
+    "yarn": "^1.5.1"
   }
 }

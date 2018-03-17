@@ -1,7 +1,10 @@
-const SimpleRouter = require('./SimpleRouter')
-const Router = require('./Router')
+import { Storage } from './Storage'
+import { PromisifyStorage } from './PromisifyStorage'
+import { LocalStorage, SessionStorage } from './prefabStorages'
 
-module.exports = {
-  Router,
-  SimpleRouter
+export {
+  Storage,
+  PromisifyStorage,
+  LocalStorage,
+  SessionStorage
 }
